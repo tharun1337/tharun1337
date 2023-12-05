@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Download resolver.txt
         run: |
-          wget -O resolver.txt https://example.com/path/to/resolver.txt
+          wget -O resolver.txt https://tharun/path/to/resolver.txt
           
       - name: Commit changes
         run: |
